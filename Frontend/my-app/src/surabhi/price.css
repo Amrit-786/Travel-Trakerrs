@@ -1,0 +1,44 @@
+.tourPlacesPics {
+  display: grid;
+  grid-template-areas: 
+      "a a a b b"
+      "a a a c c";
+      column-gap: 40px;
+  margin-top: 50px;
+ 
+}
+
+.leftPics {
+  grid-area: a;
+}
+.leftPics img{
+  height:100%;
+  border-radius: 25px;
+}
+.rytPics {
+  display: grid;
+  row-gap: 40px;
+}
+.rytPics img{
+  border-radius: 25px;
+}
+
+.rytPics:nth-child(1) {
+  grid-area: b;
+}
+
+.rytPics:nth-child(2) {
+  grid-area: c;
+}
+.rqstCallInput input,
+.rqstCallInput button {
+  padding: 15px;
+  width: 300px;
+  border-radius: 50px;
+  border: 1px solid grey;
+ 
+}
+.rqstCallInput button{
+  background-color: #ee7044;
+  border: none;
+}
