@@ -7,6 +7,7 @@ import Contact from './pages/Contact';
 import Prices from './pages/Prices';
 import Reviews from './pages/Reviews';
 import Services from './pages/Services';
+import { SignupAndLogin } from './pages/SignupAndLogin';
 
 
 
@@ -23,6 +24,7 @@ export default function App() {
         <Route path="/prices" element={< Prices/>} />
         <Route path="/review" element={<Reviews />} />
         <Route path="/services" element={<Services />} />
+        <Route path='/signup' element={<SignupAndLogin />} />
       </Routes>
     </Router>
   );
