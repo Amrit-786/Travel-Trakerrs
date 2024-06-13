@@ -2,7 +2,8 @@
 {
     "tour":[
     {
-      "card__img": "https://res.klook.com/image/upload/c_fill,w_550,h_308/fl_lossy.progressive,q_85/q_85/activities/c9pxtufnq6neudcnbycc.webp",
+      "id":"1",
+      "card_img": "https://res.klook.com/image/upload/c_fill,w_550,h_308/fl_lossy.progressive,q_85/q_85/activities/c9pxtufnq6neudcnbycc.webp",
       "card_title": "Taj Mahal and Agra Fort With Multiple Options & Departure Points",
       "card2_img": "https://www.klook.com/activity/6299-taj-mahal-agra-fort-day-tour-delhi/",
       "tag_2": "Bestseller",
@@ -15,7 +16,8 @@
       "tag_content": "Best Price Guarantee"
     },
     {
-      "card__img": "https://res.klook.com/image/upload/c_fill,w_550,h_308/fl_lossy.progressive,q_85/q_85/activities/eybjjii82kbb7e4mclya.webp",
+      "id":"2",
+      "card_img": "https://res.klook.com/image/upload/c_fill,w_550,h_308/fl_lossy.progressive,q_85/q_85/activities/eybjjii82kbb7e4mclya.webp",
       "card_title": "Highlights of Mumbai Day Tour",
       "card2_img": "https://www.klook.com/activity/5471-highlights-of-mumbai-tour-mumbai/",
       "tag_2": "Private group",
@@ -28,7 +30,8 @@
       "tag_content": "Best Price Guarantee"
     },
     {
-      "card__img": "https://res.klook.com/image/upload/c_fill,w_550,h_308/fl_lossy.progressive,q_85/q_85/activities/niv8xn3l1lfhm3isfmvm.webp",
+      "id":"4",
+      "card_img": "https://res.klook.com/image/upload/c_fill,w_550,h_308/fl_lossy.progressive,q_85/q_85/activities/niv8xn3l1lfhm3isfmvm.webp",
       "card_title": "Mumbai Unplugged Half Day Tour",
       "card2_img": "https://www.klook.com/activity/5677-mumbai-unplugged-half-day-tour-india/",
       "tag_2": "Easy refund",
@@ -41,7 +44,8 @@
       "tag_content": "Best Price Guarantee"
     },
     {
-      "card__img": "https://res.klook.com/image/upload/c_fill,w_550,h_308/fl_lossy.progressive,q_85/q_85/activities/k7vx1a8ddmvaybqn5lys.webp",
+      "id":"5",
+      "card_img": "https://res.klook.com/image/upload/c_fill,w_550,h_308/fl_lossy.progressive,q_85/q_85/activities/k7vx1a8ddmvaybqn5lys.webp",
       "card_title": "Wagah Beating Retreat Border Ceremony (with Dinner) in Amritsar",
       "card2_img": "https://www.klook.com/activity/13987-wagah-beating-retreat-border-ceremony-dinner-amritsar/",
       "tag_2": "Easy refund",
@@ -54,7 +58,8 @@
       "tag_content": "Best Price Guarantee"
     },
     {
-      "card__img": "https://res.klook.com/image/upload/c_fill,w_550,h_308/fl_lossy.progressive,q_85/q_85/activities/vffcyizi6d8vdef72j5m.webp",
+      "id":"6",
+      "card_img": "https://res.klook.com/image/upload/c_fill,w_550,h_308/fl_lossy.progressive,q_85/q_85/activities/vffcyizi6d8vdef72j5m.webp",
       "card_title": "Delhi Best of Monuments Half Day Tour",
       "card2_img": "https://www.klook.com/activity/6010-south-delhi-monuments-tour-delhi/",
       "tag_2": "Easy refund",
@@ -67,7 +72,8 @@
       "tag_content": "Best Price Guarantee"
     },
     {
-      "card__img": "https://res.klook.com/image/upload/c_fill,w_550,h_308/fl_lossy.progressive,q_85/q_85/activities/wqcywat7hmsrbayov8go.webp",
+      "id":"7",
+      "card_img": "https://res.klook.com/image/upload/c_fill,w_550,h_308/fl_lossy.progressive,q_85/q_85/activities/wqcywat7hmsrbayov8go.webp",
       "card_title": "Old and New Delhi Private Full Day City Tour",
       "card2_img": "https://www.klook.com/activity/94590-private-full-day-city-tour-delhi/",
       "tag_2": "Private group",
@@ -80,7 +86,8 @@
       "tag_content": "Best Price Guarantee"
     },
     {
-      "card__img": "https://res.klook.com/image/upload/c_fill,w_550,h_308/fl_lossy.progressive,q_85/q_85/activities/iufwrpimp6xcyejx9uiu.webp",
+      "id":"9",
+      "card_img": "https://res.klook.com/image/upload/c_fill,w_550,h_308/fl_lossy.progressive,q_85/q_85/activities/iufwrpimp6xcyejx9uiu.webp",
       "card_title": "Amritsar Golden Temple Night Ceremony Tour",
       "card2_img": "https://www.klook.com/activity/16297-golden-temple-night-ceremony-tour-amritsar/",
       "tag_2": "Easy refund",
@@ -93,7 +100,8 @@
       "tag_content": "Best Price Guarantee"
     },
     {
-      "card__img": "https://res.klook.com/image/upload/c_fill,w_550,h_308/fl_lossy.progressive,q_85/q_85/activities/pvntymrzcdwjsp6xz0il.webp",
+      "id":"10",
+      "card_img": "https://res.klook.com/image/upload/c_fill,w_550,h_308/fl_lossy.progressive,q_85/q_85/activities/pvntymrzcdwjsp6xz0il.webp",
       "card_title": "Varanasi Private Day Tour",
       "card2_img": "https://www.klook.com/activity/16184-private-day-tour-varanasi/",
       "tag_2": "Private group",
@@ -106,7 +114,8 @@
       "tag_content": "Best Price Guarantee"
     },
     {
-      "card__img": "https://res.klook.com/image/upload/c_fill,w_550,h_308/fl_lossy.progressive,q_85/q_85/activities/ron3hpsgzzelezo22aak.webp",
+     "id":"11", 
+      "card_img": "https://res.klook.com/image/upload/c_fill,w_550,h_308/fl_lossy.progressive,q_85/q_85/activities/ron3hpsgzzelezo22aak.webp",
       "card_title": "Old And New Delhi Day Tour By Car",
       "card2_img": "https://www.klook.com/activity/100628-old-and-new-delhi-day-tour-by-car/",
       "tag_2": "Private group",
@@ -119,7 +128,8 @@
       "tag_content": "Best Price Guarantee"
     },
     {
-      "card__img": "https://res.klook.com/image/upload/c_fill,w_550,h_308/fl_lossy.progressive,q_85/q_85/activities/n5ebseu1skglxqsnephq.webp",
+      "id":"12",
+      "card_img": "https://res.klook.com/image/upload/c_fill,w_550,h_308/fl_lossy.progressive,q_85/q_85/activities/n5ebseu1skglxqsnephq.webp",
       "card_title": "3D2N Golden Triangle Tour from Delhi",
       "card2_img": "https://www.klook.com/activity/11023-3d2n-golden-triangle-tour-delhi/",
       "tag_2": "Private group",
@@ -132,7 +142,8 @@
       "tag_content": "Best Price Guarantee"
     },
     {
-      "card__img": "https://res.klook.com/image/upload/c_fill,w_550,h_308/fl_lossy.progressive,q_85/q_85/activities/qwbohqtk5z8cg8pzuzct.webp",
+      "id":"13",
+      "card_img": "https://res.klook.com/image/upload/c_fill,w_550,h_308/fl_lossy.progressive,q_85/q_85/activities/qwbohqtk5z8cg8pzuzct.webp",
       "card_title": "Mumbai Walking Food Tour",
       "card2_img": "https://www.klook.com/activity/5960-walking-food-tour-mumbai/",
       "tag_2": "Easy refund",
@@ -145,7 +156,8 @@
       "tag_content": "Best Price Guarantee"
     },
     {
-      "card__img": "https://res.klook.com/image/upload/c_fill,w_550,h_308/fl_lossy.progressive,q_85/q_85/activities/fsohuuxbzlrn8n96xrvg.webp",
+      "id":"14",
+      "card_img": "https://res.klook.com/image/upload/c_fill,w_550,h_308/fl_lossy.progressive,q_85/q_85/activities/fsohuuxbzlrn8n96xrvg.webp",
       "card_title": "Mumbai Bollywood Studio Tour",
       "card2_img": "https://www.klook.com/activity/5790-bollywood-studio-tour-mumbai/",
       "tag_2": "Easy refund",
@@ -158,7 +170,8 @@
       "tag_content": "Best Price Guarantee"
     },
     {
-      "card__img": "https://res.klook.com/image/upload/c_fill,w_550,h_308/fl_lossy.progressive,q_85/q_85/activities/lmh79tezn5vplprbchwh.webp",
+      "id":"15",
+      "card_img": "https://res.klook.com/image/upload/c_fill,w_550,h_308/fl_lossy.progressive,q_85/q_85/activities/lmh79tezn5vplprbchwh.webp",
       "card_title": "2D Delhi and Agra Combo Private Tour",
       "card2_img": "https://www.klook.com/activity/13166-2d-delhi-agra-combo-private-tour-delhi/",
       "tag_2": "Private group",
@@ -171,7 +184,8 @@
       "tag_content": "Best Price Guarantee"
     },
     {
-      "card__img": "https://res.klook.com/image/upload/c_fill,w_550,h_308/fl_lossy.progressive,q_85/q_85/activities/fnv9yqewc1ntnmuw0bnz.webp",
+      "id":"16",
+      "card_img": "https://res.klook.com/image/upload/c_fill,w_550,h_308/fl_lossy.progressive,q_85/q_85/activities/fnv9yqewc1ntnmuw0bnz.webp",
       "card_title": "4D3N Delhi, Agra, Jaipur Private Tour with Ranthambhore Tiger Safari from Delhi",
       "card2_img": "https://www.klook.com/activity/13816-private-delhi-agra-jaipur-4d3n-tour-ranthambhore-tiger-safari-delhi/",
       "tag_2": "Private group",
@@ -184,7 +198,8 @@
       "tag_content": "Best Price Guarantee"
     },
     {
-      "card__img": "https://res.klook.com/image/upload/c_fill,w_550,h_308/fl_lossy.progressive,q_85/q_85/activities/mpkhmvxogecxbcqsgefy.webp",
+      "id":"17",
+      "card_img": "https://res.klook.com/image/upload/c_fill,w_550,h_308/fl_lossy.progressive,q_85/q_85/activities/mpkhmvxogecxbcqsgefy.webp",
       "card_title": "Jaipur instagram Tour",
       "card2_img": "https://www.klook.com/activity/23675-jaipur-scenic-tour/",
       "tag_2": "Private group",
@@ -197,7 +212,8 @@
       "tag_content": "Best Price Guarantee"
     },
     {
-      "card__img": "https://res.klook.com/image/upload/c_fill,w_550,h_308/fl_lossy.progressive,q_85/q_85/activities/v4wehxo2ss4ilknfeway.webp",
+      "id":"18",
+      "card_img": "https://res.klook.com/image/upload/c_fill,w_550,h_308/fl_lossy.progressive,q_85/q_85/activities/v4wehxo2ss4ilknfeway.webp",
       "card_title": "Bharatpur And Fatehpur Sikri Half Day Tour From Agra",
       "card2_img": "https://www.klook.com/activity/16105-bharatpur-fatehpur-sikri-tour-agra/",
       "tag_2": "Private group",
@@ -210,7 +226,8 @@
       "tag_content": "Best Price Guarantee"
     },
     {
-      "card__img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+      "id":"19",
+      "card_img": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.tourism.rajasthan.gov.in%2Fjaipur.html&psig=AOvVaw21tF9n3ZZPTL3VVN7waJ4f&ust=1718378170745000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCMjuldfv2IYDFQAAAAAdAAAAABAE",
       "card_title": "Jaipur Private Day Tour from Delhi",
       "card2_img": "https://www.klook.com/activity/18730-private-day-tour-jaipur/",
       "tag_2": "Private group",
@@ -223,7 +240,8 @@
       "tag_content": "Best Price Guarantee"
     },
     {
-      "card__img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+      "id":"20",
+      "card_img": "https://static.toiimg.com/thumb/msid-81753238,width-748,height-499,resizemode=4,imgsize-1200395/.jpg",
       "card_title": "Old Delhi Bazaar Walking Tour",
       "card2_img": "https://www.klook.com/activity/5946-old-delhi-bazaar-walking-tour-delhi/",
       "tag_2": "Easy refund",
@@ -236,7 +254,8 @@
       "tag_content": "Best Price Guarantee"
     },
     {
-      "card__img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+      "id":"21",
+      "card_img": "https://www.indiacitywalks.com/wp-content/uploads/2015/06/banglore-heritage-walk-6b.jpg",
       "card_title": "Bangalore Heritage Walk Into The History Of Tipu Sultan Fort And Palace",
       "card2_img": "https://www.klook.com/activity/8367-a-day-in-the-life-of-tipu-sultan-bangalore/",
       "tag_2": "Private group",
@@ -249,7 +268,8 @@
       "tag_content": "Best Price Guarantee"
     },
     {
-      "card__img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+      "id":"22",
+      "card_img": "https://www.tripbyexperts.com/images/delhi-half-day-tour-of-master-ji-ki-haveli/delhi-master-ji-ki-haveli.jpg",
       "card_title": "Masterji Kee Haveli Half Day Tour",
       "card2_img": "https://www.klook.com/activity/12704-masterji-kee-haveli-half-day-tour-delhi/",
       "tag_2": "Easy refund",
@@ -262,7 +282,8 @@
       "tag_content": "Best Price Guarantee"
     },
     {
-      "card__img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+      "id":"23",
+      "card_img": "https://media2.thrillophilia.com/images/photos/000/194/706/original/1582982473_shutterstock_1430024867_(1).jpg?width=490&height=435",
       "card_title": "Gwalior Day Tour From Agra",
       "card2_img": "https://www.klook.com/activity/16128-gwalior-day-tour-agra/",
       "tag_2": "Private group",
@@ -275,7 +296,8 @@
       "tag_content": "Best Price Guarantee"
     },
     {
-      "card__img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+      "id":"24",
+      "card_img": "https://www.adventurush.com/wp-content/uploads/2022/08/shutterstock_1162389244-1.jpg",
       "card_title": "4D3N Jim Corbett And Nainital Tour From Dehradun",
       "card2_img": "https://www.klook.com/activity/8988-4d3n-jim-corbett-nainital-tour-dehradun-uttarakhand/",
       "tag_2": "Private group",
@@ -288,7 +310,8 @@
       "tag_content": "Best Price Guarantee"
     },
     {
-      "card__img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+      "id":"25",
+      "card_img": "https://media.tacdn.com/media/attractions-splice-spp-674x446/07/b0/02/31.jpg",
       "card_title": "3D2N Golden Triangle Private Tour from Agra",
       "card2_img": "https://www.klook.com/activity/13162-3d2n-golden-triangle-private-tour-agra/",
       "tag_2": "Private group",
@@ -301,7 +324,8 @@
       "tag_content": "Best Price Guarantee"
     },
     {
-      "card__img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+      "id":"26",
+      "card_img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUKigqQ-8V_UcFFkI5d7t4jdK-U8mgrKFeXg&s",
       "card_title": "From Delhi: Taj Mahal & Agra Private Day Trip with Transfers",
       "card2_img": "https://www.klook.com/activity/95753-taj-mahal-agra-fort-private-day-tour-delhi/",
       "tag_2": "Private group",
@@ -314,8 +338,9 @@
       "tag_content": "Best Price Guarantee"
     },
     {
-      "card__img": "https://res.klook.com/image/upload/c_fill,w_550,h_308/fl_lossy.progressive,q_85/q_85/activities/ygk4riq6rvoe1ru5caaz.webp",
-      "card_title": "Singapore Iconic Car Tour",
+      "id":"27",
+      "card_img": "https://static.toiimg.com/photo/65688151.cms",
+      "card_title": "Punjab Iconic  Tour",
       "card2_img": "https://www.klook.com/activity/117377-singapore-iconic-car-tour/",
       "tag_2": "Easy refund",
       "tag_1": "",
@@ -324,10 +349,11 @@
       "review-number": "",
       "booked_number": "",
       "price": "US$ 92.95",
-      "tag_content": ""
+      "tag_content": "Best Price Guarantee"
     },
     {
-      "card__img": "https://res.klook.com/image/upload/c_fill,w_550,h_308/fl_lossy.progressive,q_85/q_85/activities/bmd0ipz3endbqy6zqrdl.webp",
+      "id":"28",
+      "card_img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuRMHQma95zB8i1YXK0yaOKwTH4cwkg99seg&s",
       "card_title": "Everest Mountain Flight from Kathmandu",
       "card2_img": "https://www.klook.com/activity/99055-mount-everest-flight-kathmandu/",
       "tag_2": "",
@@ -337,11 +363,12 @@
       "review-number": "",
       "booked_number": "",
       "price": "US$ 190.00",
-      "tag_content": ""
+      "tag_content": "Best Price Guarantee"
     },
     {
-      "card__img": "https://res.klook.com/image/upload/c_fill,w_550,h_308/fl_lossy.progressive,q_85/q_85/activities/wpspyqy7ss6ux1ez9stu.webp",
-      "card_title": "Kaizen Private Onsen and Spa at Sukhumvit 26 in Bangkok",
+      "id":"29",
+      "card_img": "https://img.nayatrip.com/images/state/big/BIHAR.jpg",
+      "card_title": "Bihar tour",
       "card2_img": "https://www.klook.com/activity/96887-kaizen-private-onsen-spa-thailand-bangkok/",
       "tag_2": "Easy refund",
       "tag_1": "",
@@ -350,11 +377,12 @@
       "review-number": "",
       "booked_number": "",
       "price": "US$ 27.15",
-      "tag_content": ""
+      "tag_content":"Best Price Guarantee"
     },
     {
-      "card__img": "https://res.klook.com/image/upload/c_fill,w_550,h_308/fl_lossy.progressive,q_85/q_85/activities/yatsnmao4qw8ueu9yqvo.webp",
-      "card_title": "Hiroshima and Miyajima 1 Day Bus Tour with Indian Lunch",
+      "id":"30",
+      "card_img": "https://ahmedabadcity.org/wp-content/uploads/2022/11/Guide-to-Gujarat-Tourism.png",
+      "card_title": "Gujrat tour",
       "card2_img": "https://www.klook.com/activity/105859-hiroshima-miyajima-join-one-day-bus-tour-indian-lunch-osaka-kyoto/",
       "tag_2": "",
       "tag_1": "",
@@ -363,10 +391,11 @@
       "review-number": "",
       "booked_number": "50+ booked",
       "price": "US$ 115.50",
-      "tag_content": ""
+      "tag_content": "Best Price Guarantee"
     },
     {
-      "card__img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+      "id":"31",
+      "card_img": "https://www.fabhotels.com/blog/wp-content/uploads/2019/10/Himachal-Pradesh-Tourism_600.jpg",
       "card_title": "Spa Experience in Adiwana Resorts Jembawan",
       "card2_img": "https://www.klook.com/activity/17636-tejas-spa-adiwana-jembawan-bali/",
       "tag_2": "Easy refund",
@@ -379,8 +408,9 @@
       "tag_content": "Best Price Guarantee"
     },
     {
-      "card__img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
-      "card_title": "Let’s Go Bike Singapore: Bike and Bites Heritage Tour",
+      "id":"32",
+      "card_img": "https://www.kashmir-tourism.org/images/head/home/srinagar.jpg",
+      "card_title": "J&k Tour",
       "card2_img": "https://www.klook.com/activity/34104-singapore-bike-bites-heritage-district-tour/",
       "tag_2": "Easy refund",
       "tag_1": "Book now for today",
@@ -390,162 +420,7 @@
       "booked_number": "100+ booked",
       "price": "US$ 73.65",
       "tag_content": "Best Price Guarantee"
-    },
-    {
-      "card__img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
-      "card_title": "Hidden Secrets of Kuala Lumpur Half Day Cycling Tour",
-      "card2_img": "https://www.klook.com/activity/27663-hidden-secrets-kuala-lumpur-half-day-cycling-tour/",
-      "tag_2": "Easy refund",
-      "tag_1": "Book now for tomorrow",
-      "Booking": "",
-      "rating": 5,
-      "review-number": "",
-      "booked_number": "100+ booked",
-      "price": "US$ 59.35",
-      "tag_content": ""
-    },
-    {
-      "card__img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
-      "card_title": "Grand Massage & Spa Experience in Nana",
-      "card2_img": "https://www.klook.com/activity/88527-grand-massage-spa-nana-thailand-bangkok/",
-      "tag_2": "Easy refund",
-      "tag_1": "",
-      "Booking": "",
-      "rating": "",
-      "review-number": "",
-      "booked_number": "",
-      "price": "US$ 19.19",
-      "tag_content": ""
-    },
-    {
-      "card__img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
-      "card_title": "India Venster Guided Hike Experience from Cape Town",
-      "card2_img": "https://www.klook.com/activity/13337-india-venster-guided-hike-cape-town/",
-      "tag_2": "Easy refund",
-      "tag_1": "",
-      "Booking": "",
-      "rating": 5,
-      "review-number": "",
-      "booked_number": "100+ booked",
-      "price": "US$ 73.35",
-      "tag_content": "Best Price Guarantee"
-    },
-    {
-      "card__img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
-      "card_title": "Grand Massage & Spa Experience in Sukhumvit 3/1",
-      "card2_img": "https://www.klook.com/activity/81354-grand-massage-spa-nana-sukhumvit-3-1-experience-bangkok/",
-      "tag_2": "Easy refund",
-      "tag_1": "",
-      "Booking": "",
-      "rating": 4.6,
-      "review-number": "",
-      "booked_number": "50+ booked",
-      "price": "US$ 19.19",
-      "tag_content": ""
-    },
-    {
-      "card__img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
-      "card_title": "Little India Pub Crawl Half Day Tour",
-      "card2_img": "https://www.klook.com/activity/99047-little-india-pub-crawl-half-day-tour-singapore/",
-      "tag_2": "Easy refund",
-      "tag_1": "Book now for tomorrow",
-      "Booking": "",
-      "rating": "",
-      "review-number": "",
-      "booked_number": "",
-      "price": "US$ 23.15",
-      "tag_content": ""
-    },
-    {
-      "card__img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
-      "card_title": "Street Food & Ethnic Quarters Kick Scooter Tour",
-      "card2_img": "https://www.klook.com/activity/103340-street-food-ethnic-quarters-kick-scooter-tour/",
-      "tag_2": "Easy refund",
-      "tag_1": "",
-      "Booking": "",
-      "rating": 5,
-      "review-number": "",
-      "booked_number": "",
-      "price": "US$ 41.19",
-      "tag_content": ""
-    },
-    {
-      "card__img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
-      "card_title": "The Village Spa Experience in Phuket",
-      "card2_img": "https://www.klook.com/activity/88249-the-village-spa-phuket/",
-      "tag_2": "Instant confirmation",
-      "tag_1": "",
-      "Booking": "",
-      "rating": "",
-      "review-number": "",
-      "booked_number": "",
-      "price": "US$ 24.69",
-      "tag_content": "Best Price Guarantee"
-    },
-    {
-      "card__img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
-      "card_title": "5D4N Mount Bromo, Ijen Volcano and Bali Tour from Yogyakarta",
-      "card2_img": "https://www.klook.com/activity/89445-5d4n-mount-bromo-ijen-volcano-bali-private-land-tour-yogyakarta/",
-      "tag_2": "Private group",
-      "tag_1": "Instant confirmation",
-      "Booking": "Book now for tomorrow",
-      "rating": 5,
-      "review-number": "",
-      "booked_number": "",
-      "price": "US$ 586.45",
-      "tag_content": ""
-    },
-    {
-      "card__img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
-      "card_title": "Singapore Guided Tour Pass",
-      "card2_img": "https://www.klook.com/activity/112776-singapore-guided-tour-pass/",
-      "tag_2": "Easy refund",
-      "tag_1": "Book now for tomorrow",
-      "Booking": "",
-      "rating": "",
-      "review-number": "",
-      "booked_number": "",
-      "price": "US$ 92.20",
-      "tag_content": ""
-    },
-    {
-      "card__img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
-      "card_title": "Be Well Spa Experience in Bangkok",
-      "card2_img": "https://www.klook.com/activity/101587-be-well-spa-bangkok-thailand/",
-      "tag_2": "Easy refund",
-      "tag_1": "",
-      "Booking": "",
-      "rating": "",
-      "review-number": "",
-      "booked_number": "",
-      "price": "US$ 29.09",
-      "tag_content": "Sale"
-    },
-    {
-      "card__img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
-      "card_title": "5D4N Fascinating Bhutan Tour",
-      "card2_img": "https://www.klook.com/activity/97655-5-days-fascinating-bhutan-tour/",
-      "tag_2": "Private group",
-      "tag_1": "",
-      "Booking": "",
-      "rating": "",
-      "review-number": "",
-      "booked_number": "",
-      "price": "US$ 1,448.00",
-      "tag_content": ""
-    },
-    {
-      "card__img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
-      "card_title": "Everest Scenic (mountain) flight every Morning from Kathmandu",
-      "card2_img": "https://www.klook.com/activity/97886-everest-scenic-mountain-flight-every-morning-from-kathmandu/",
-      "tag_2": "Easy refund",
-      "tag_1": "Book now for tomorrow",
-      "Booking": "",
-      "rating": "",
-      "review-number": "",
-      "booked_number": "",
-      "price": "US$ 192.00",
-      "tag_content": ""
     }
+   
   ]
 }
