@@ -1,6 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import '../ricky/Navbar.css';
+import { CiFacebook } from "react-icons/ci";
+import { FaInstagram } from "react-icons/fa";
+import { FaWhatsapp } from "react-icons/fa";
+
 
 function Navbar() {
   return (
@@ -21,10 +25,11 @@ function Navbar() {
         </div> 
 
         <div className='iconsricky'>
-          <i className="fab fa-facebook"></i>
-          <i className="fab fa-instagram"></i>
-          <i className="fab fa-whatsapp"></i>
+              <CiFacebook />
+              <FaInstagram />
+              <FaWhatsapp />
         </div>
+        
       </nav>
 
     </header>
