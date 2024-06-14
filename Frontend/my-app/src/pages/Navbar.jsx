@@ -19,9 +19,19 @@ function Navbar() {
           <Link to="/contact" className="nav-link">Contact</Link>
           <Link to="/review" className="nav-link">Review</Link>
           <Link to="/services" className="nav-link">Services</Link>
-        </div> 
+        </div>
+
 
           <Link to="/login" className="userIcon"><FaUserAlt /></Link>
+
+        <div className='iconsricky'>
+              <CiFacebook />
+              <FaInstagram />
+              <FaWhatsapp />
+        </div>
+
+      </nav>
+
 
       </nav>
     </header>
