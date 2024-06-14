@@ -1,10 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import '../ricky/Navbar.css';
-import { CiFacebook } from "react-icons/ci";
-import { FaInstagram } from "react-icons/fa";
-import { FaWhatsapp } from "react-icons/fa";
-
+import { FaUserAlt } from "react-icons/fa";
 
 function Navbar() {
   return (
@@ -12,17 +9,20 @@ function Navbar() {
       <nav className="navbar">
         <div>
           <Link to="/">
-            <img src="/logo.png" alt="Logo" />
+           <img src="/logo.png" alt="" id='img'/>
           </Link>
         </div>
 
         <div>
           <Link to="/about" className="nav-link">About us</Link>
-          <Link to="/prices" className="nav-link">Price</Link>
+          <Link to="/prices" className="nav-link">Prices</Link>
           <Link to="/contact" className="nav-link">Contact</Link>
           <Link to="/review" className="nav-link">Review</Link>
           <Link to="/services" className="nav-link">Services</Link>
         </div>
+
+
+          <Link to="/login" className="userIcon"><FaUserAlt /></Link>
 
         <div className='iconsricky'>
               <CiFacebook />
@@ -32,6 +32,8 @@ function Navbar() {
 
       </nav>
 
+
+      </nav>
     </header>
   );
 }
