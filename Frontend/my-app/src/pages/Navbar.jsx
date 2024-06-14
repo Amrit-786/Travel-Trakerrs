@@ -26,12 +26,6 @@ function Navbar() {
           <i className="fab fa-whatsapp"></i>
         </div>
 
-        <div>
-          <button>
-            <Link to="/signup" className="nav-link">Signup</Link>
-          </button>
-        </div>
-
       </nav>
 
     </header>
