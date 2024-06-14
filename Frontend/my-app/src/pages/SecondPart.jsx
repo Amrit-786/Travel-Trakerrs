@@ -3,7 +3,7 @@ import '../ricky/Navbar.css';
 import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 
-const imageUrl = 'https://res.klook.com/image/upload/q_65/v1698045198/UED_new/TnA/TnA_Vertical%20homepage_2305/img_tna_activity_list_hero_desktop_2x.jpg';
+const imageUrl = 'https://www.kesari.in/assets/img/aboutus/aboutus-banner.jpg';
 
 export default function SecondPart() {
   const [key, setKey] = useState(0);
@@ -24,7 +24,7 @@ export default function SecondPart() {
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         backgroundRepeat: 'no-repeat',
-        minHeight: '440px', 
+        minHeight: '480px', 
         display: 'flex',
         flexDirection: 'column',
         justifyContent: 'center',

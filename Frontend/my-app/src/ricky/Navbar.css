@@ -9,7 +9,7 @@
 
 }
 
-img {
+#img {
     height: 120px;
     width: 120px;
 }
@@ -177,6 +177,12 @@ img {
   @keyframes fadeIn {
     from { opacity: 0; }
     to { opacity: 1; }
+  }
+  .userIcon{
+    font-size: 2.4rem;
+  }
+  .navButton{
+    width: 40px;
   }
   
 
