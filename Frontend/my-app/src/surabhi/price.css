@@ -1,25 +1,29 @@
 .tourPlacesPics {
   display: grid;
-  grid-template-areas: 
-      "a a a b b"
-      "a a a c c";
-      column-gap: 40px;
+  grid-template-areas:
+    "a a a b b"
+    "a a a c c";
+  column-gap: 40px;
   margin-top: 50px;
- 
 }
 
 .leftPics {
   grid-area: a;
 }
-.leftPics img{
-  height:100%;
+.leftPics img {
+  height: 100%;
   border-radius: 25px;
+}
+.leftPics img:hover,
+.rytPics img:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
 }
 .rytPics {
   display: grid;
   row-gap: 40px;
 }
-.rytPics img{
+.rytPics img {
   border-radius: 25px;
 }
 
@@ -36,9 +40,39 @@
   width: 300px;
   border-radius: 50px;
   border: 1px solid grey;
- 
 }
-.rqstCallInput button{
+.rqstCallInput button {
   background-color: #ee7044;
   border: none;
+}
+.selected {
+  transform: scale(1.05);
+  background-color: #f0f0f0;
+  color: #ee7044;
+}
+.priceLists:hover {
+  cursor: pointer;
+}
+.btnSend:hover {
+  font-weight: bold;
+  color: #ee7044;
+  background-color: #f5c8b8;
+  cursor: pointer;
+}
+.rqstCallInput input {
+  border: 1px solid #ee7044;
+  color: #ee7044;
+}
+
+
+.reveal {
+  position: relative;
+  opacity: 0;
+  transform: translateY(50px);
+  transition: opacity 0.1s ease, transform 0.8s ease;
+}
+
+.reveal.active {
+  opacity: 1;
+  transform: translateY(0);
 }

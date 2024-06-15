@@ -22,14 +22,12 @@ function Navbar() {
           <Link to="/review" className="nav-link">Review</Link>
           <Link to="/services" className="nav-link">Services</Link>
         </div>
-
         <div>
-          <Link to="/cart" className='CartChange'><FaShoppingCart /></Link>
-          
-          
+          <Link to="/cart" className='CartChange'><FaShoppingCart /></Link>  
           <Link to="/login" className="userIcon"><FaUserCircle /></Link>
           <ColorTheme />
         </div>
+
       </nav>
     </header>
   );
