@@ -25,6 +25,23 @@ function Navbar() {
           <Link to="/review" className="nav-link">Review</Link>
           <Link to="/services" className="nav-link">Services</Link>
         </div>
+
+          <Link to="/login" className="userIcon"><FaUserAlt /></Link>
+
+        <div
+              className='iconsricky'>
+              <CiFacebook />
+              <FaInstagram />
+              <FaWhatsapp />
+         </div>
+
+
+    
+        </nav>
+
+      </header>
+  )
+
         <div>
           <Link to="/cart" className='CartChange'><FaShoppingCart /></Link>  
           <Link to="/login" className="userIcon"><FaUserCircle /></Link>
@@ -37,6 +54,7 @@ function Navbar() {
     </>
     
   );
+
 }
 
 export default Navbar;
