@@ -1,0 +1,32 @@
+.company-profile-pic{
+  position: relative;
+}
+.our-aim-cards{
+  display: flex;
+  width: 100%;
+  top: 55%;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+.our-aim-cards-data{
+  background-color: #080706;
+  color: #ee7744;
+  width: 500px;
+  height: 260px;
+  border-radius: 15px;
+  opacity: 0.7;
+  padding: 15px;
+
+}
+.tours-div{
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+.assosiate-with{
+  display: flex;
+  width: 100px;
+ 
+}
