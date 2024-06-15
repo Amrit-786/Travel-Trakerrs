@@ -5,6 +5,7 @@ import { FaCheckToSlot } from "react-icons/fa6";
 import { FaUserCircle } from "react-icons/fa";
 import { IoSettingsSharp } from "react-icons/io5";
 import SecondPart from './SecondPart';
+import { PricePage } from '../surabhi/PricePage';
 
 export default function Home() {
   return (
@@ -76,6 +77,7 @@ export default function Home() {
 </div>
 
 </div>
+<PricePage/>
 
 </>
 

@@ -3,8 +3,8 @@
   grid-template-areas:
     "a a a b b"
     "a a a c c";
-  column-gap: 40px;
-  margin-top: 50px;
+  /* column-gap: 40px; */
+  margin-top: 50px; 
 }
 
 .leftPics {
