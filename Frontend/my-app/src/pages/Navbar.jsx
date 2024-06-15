@@ -5,8 +5,11 @@ import { FaUserCircle } from "react-icons/fa";
 import ColorTheme from './ColorTheme';
 import { FaShoppingCart } from "react-icons/fa";
 
+
 function Navbar() {
   return (
+    <>
+    
     <header>
       <nav className="navbar">
         <div>
@@ -30,6 +33,9 @@ function Navbar() {
 
       </nav>
     </header>
+    {/* <PricePage/>  */}
+    </>
+    
   );
 }
 

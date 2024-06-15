@@ -12,8 +12,8 @@
     height: 95px;
    border-bottom: 4px solid  #b7f3ea;
    position: sticky;
+   font-size: xx-small;
    
-
 }
 
 img {
@@ -26,7 +26,7 @@ img {
     text-decoration: none;
     color: white;
     transition: color 0.3s ease;
-    font-size: 1.4rem;
+    font-size: 1.8rem;
     font-weight: bold;
    
 }

@@ -3,8 +3,10 @@ import '../ricky/Navbar.css';
 import { Link } from 'react-router-dom';
 
 
+
 export default function SecondPart() {
   return (
+    <>
     <div style={{ width: "100%", height: '550px', position: 'relative', overflow: 'hidden' }}>
       <video 
         style={{ width: '100%', height: '100%', objectFit: 'cover' }} 
@@ -53,6 +55,8 @@ export default function SecondPart() {
         </button>
       </Link>
     </div>
+    
+    </>
   );
 }
 

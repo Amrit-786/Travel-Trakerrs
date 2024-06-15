@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import * as signupStyle from '../utils/signupStyle';
 
-const SignupAndLogin = () => {
+export const SignupAndLogin = () => {
     const [signIn, setSignIn] = useState(true);
 
     const divBody = {
@@ -68,4 +68,4 @@ const SignupAndLogin = () => {
     );
 };
 
-export { SignupAndLogin };
+// export { SignupAndLogin };

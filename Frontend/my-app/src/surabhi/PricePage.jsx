@@ -43,14 +43,14 @@ export const PricePage = () => {
 
   return (
     <div className="priceContainer" style={{ width: "100%" }}>
-      <div
+      {/* <div
         className="tourPrice reveal"
         style={{
-          width: "1000px",
+          width: "100%",
           marginLeft: "18%",
-          height: "400px",
+           height: "400px",
           fontFamily: "sans-serif",
-          marginTop: "100px",
+           marginTop: "100px",
         }}
       >
         <h2>Tour Prices</h2>
@@ -59,9 +59,10 @@ export const PricePage = () => {
           style={{
             display: "grid",
             gridTemplateColumns: "1fr 1fr",
-            gap: "5%",
-            width: "1000px",
+             gap: "10%",
+            width: "100%",
             marginTop: "50px",
+            padding:'50px'
           }}
         >
           {data.map((item, index) => (
@@ -85,7 +86,7 @@ export const PricePage = () => {
             </div>
           ))}
         </div>
-      </div>
+      </div> */}
       <div
         style={{
           backgroundColor: "#f7f7fa",
@@ -97,30 +98,30 @@ export const PricePage = () => {
           style={{
             width: "1000px",
             marginLeft: "18%",
-            marginTop: "100px",
+             marginTop: "100px",
             fontFamily: "sans-serif",
             position: "absolute",
           }}
         >
-          <h2>Photography of popular places</h2>
+          <h1 style={{marginLeft:'-59px'}}>Photography of popular places</h1>
           <div className="tourPlacesPics reveal">
             <div className="leftPics">
               <img
                 src="https://media.istockphoto.com/id/511119416/photo/indian-landmark-gadi-sagar-in-rajasthan.jpg?s=612x612&w=0&k=20&c=dO7TbXh3sd6_QmgcF_nYi6ynyIAvPI5STavwzCDyWTI="
                 alt=""
-                style={{ width: "100%" }}
+                 style={{ width: "100%", marginLeft:'-59px' }}
               />
             </div>
             <div className="rytPics">
               <img
                 src="https://img.veenaworld.com/wp-content/uploads/2023/06/Natures-Paradise-Discover-the-Best-Places-To-Visit-in-North-East-India.jpg"
                 alt=""
-                style={{ width: "100%" }}
+                style={{ width: "100%" ,  height:"200px",  marginLeft:'-30px'}}
               />
               <img
                 src="https://www.holidify.com/images/bgImages/RAJMACHI.jpg"
                 alt=""
-                style={{ width: "100%" }}
+                style={{ width: "100%" ,  height:"200px",  marginLeft:'-30px' }}
               />
             </div>
           </div>
@@ -131,7 +132,7 @@ export const PricePage = () => {
           className="rqstCallDiv reveal"
           style={{
             width: "1000px",
-            marginLeft: "18%",
+             marginLeft: "18%",
             marginTop: "100px",
             fontFamily: "sans-serif",
             position: "absolute",
@@ -150,7 +151,7 @@ export const PricePage = () => {
               <h4>Your Phone Number</h4>
               <input type="text" placeholder="+91 _ _ _ _ _ _ _ _ _ _" />
             </div>
-            <div style={{ marginTop: "75px" }}>
+            <div style={{ marginTop: "26px" }}>
               <button className="btnSend" style={{ fontWeight: "bold" }}>
                 Send
               </button>

@@ -70,9 +70,9 @@ export const AboutUs = () => {
                </AccordionButton>
              </h2>
              <AccordionPanel pb={4} style={{backgroundColor:'rgb(238,112,68, 0.5)'}}>
-               {item.listItem.map(ele=>(
+               {item.listItem.map((ele,index)=>(
                 <div style={{textAlign:'left', color:'#444242' ,}}>
-                  <li >{ele}</li>
+                  <li  key={index}>{ele}</li>
                 </div>
                ))}
              </AccordionPanel>
