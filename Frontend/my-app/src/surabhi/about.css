@@ -10,17 +10,19 @@
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
-  color: #ee7044;
+  color: #7e2404; 
 }
 
 .about-us-image {
+  
   width: 100%;
 }
 
 .image-container {
+  
   width: 100%;
 }
-.about-us-btn {
+.about-us-btn{
   display: flex;
   gap: 40px;
   position: absolute;
@@ -29,38 +31,63 @@
   transform: translate(-50%, -50%);
   text-align: center;
 }
-.about-us-btn button {
+.about-us-btn button{
   width: 300px;
   border: none;
   border-radius: 30px;
   background-color: #ee7044;
   padding: 10px;
 }
-.about-us-cards-data {
+.about-us-cards-data{
   display: flex;
   height: 200px;
   gap: 50px;
   justify-content: space-evenly;
   align-items: center;
+
 }
-.about-us-cards {
+.about-us-cards{
   display: flex;
   width: 300px;
   height: 150px;
   box-shadow: rgb(255, 114, 67) 0px 3px 8px;
   justify-content: space-evenly;
+
 }
-.about-us-cards-logo {
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  color: #ee7044;
-  border: 1px solid #ee7044;
-  margin-top: 40px;
+.about-us-cards-logo{
+  display: flex;
+width: 50px;
+height: 50px;
+border-radius: 50%;
+padding: 10px;
+ color: #ee7044;
+ border: 1px solid #ee7044;
+ margin-top: 40px;
+ justify-content: center;
+ align-items: center;
+ font-weight: 900;
+ font-size: 5.5rem;
+ 
+
 }
-.about-us-cards-logo div {
+.about-us-cards-logo div{
   text-align: center;
 }
-#about-bg-img {
+#about-bg-img{
   opacity: 0.5;
 }
+.about-us-card-rytText{
+  margin-top: 30px;
+}
+@keyframes zoomInOut {
+  0% {
+    transform: scale(0.9);
+  }
+  50% {
+    transform: scale(1.0);
+  }
+  100% {
+    transform: scale(0.8);
+  }
+}
+
