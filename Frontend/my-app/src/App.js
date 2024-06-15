@@ -1,3 +1,4 @@
+import './App.css';
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './pages/Navbar';
@@ -7,11 +8,7 @@ import Contact from './pages/Contact';
 import Prices from './pages/Prices';
 import Reviews from './pages/Reviews';
 import Services from './pages/Services';
-// import { SignupAndLogin } from './pages/SignupAndLogin';
-
-
-
-
+import { Dashboard } from './dashboard/Dashboard';
 
 export default function App() {
   return (
@@ -24,7 +21,9 @@ export default function App() {
         <Route path="/prices" element={< Prices/>} />
         <Route path="/review" element={<Reviews />} />
         <Route path="/services" element={<Services />} />
-        {/* <Route path='/signup' element={<SignupAndLogin />} /> */}
+
+        {/* Dashboad Route */}
+        <Route path='/dashboard' element={<Dashboard />} />
       </Routes>
     </Router>
   );
