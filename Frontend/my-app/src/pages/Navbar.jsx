@@ -1,7 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import '../ricky/Navbar.css';
-import { FaUserAlt } from "react-icons/fa";
+import { FaUserCircle } from "react-icons/fa";
+import ColorTheme from './ColorTheme';
+import { FaShoppingCart } from "react-icons/fa";
 
 function Navbar() {
   return (
@@ -9,7 +11,7 @@ function Navbar() {
       <nav className="navbar">
         <div>
           <Link to="/">
-           <img src="/logo.png" alt="" id='img'/>
+            <img src="/ttr.png" alt="Logo" />
           </Link>
         </div>
 
@@ -20,18 +22,11 @@ function Navbar() {
           <Link to="/review" className="nav-link">Review</Link>
           <Link to="/services" className="nav-link">Services</Link>
         </div>
-
-
-          <Link to="/login" className="userIcon"><FaUserAlt /></Link>
-
-        <div className='iconsricky'>
-              <CiFacebook />
-              <FaInstagram />
-              <FaWhatsapp />
+        <div>
+          <Link to="/cart" className='CartChange'><FaShoppingCart /></Link>  
+          <Link to="/login" className="userIcon"><FaUserCircle /></Link>
+          <ColorTheme />
         </div>
-
-      </nav>
-
 
       </nav>
     </header>
