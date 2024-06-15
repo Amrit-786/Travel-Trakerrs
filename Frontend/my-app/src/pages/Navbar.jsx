@@ -21,21 +21,21 @@ function Navbar() {
           <Link to="/services" className="nav-link">Services</Link>
         </div>
 
-
           <Link to="/login" className="userIcon"><FaUserAlt /></Link>
 
-        <div className='iconsricky'>
+        <div
+              className='iconsricky'>
               <CiFacebook />
               <FaInstagram />
               <FaWhatsapp />
-        </div>
-
-      </nav>
+         </div>
 
 
-      </nav>
-    </header>
-  );
+    
+        </nav>
+
+      </header>
+  )
 }
 
 export default Navbar;
