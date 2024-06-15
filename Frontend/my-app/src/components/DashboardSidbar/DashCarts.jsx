@@ -13,8 +13,8 @@ const cartData = [
     {
         title : "Booking",
         color: {
-            backGraund : 'linear-gradient(180deg, #bb67ff 0%, #c484f3 100%)',
-            boxShodow : '0px 10px 20px 0px #e0c6f5',
+            backGround : 'linear-gradient(180deg, #9ae9e1 0%, #66debd 10%, #02c5a8 100%)',
+            boxShadow : '0px 10px 20px 0px #02c5a8',
         },
         barValue : 60,
         value : "25.970",
@@ -26,12 +26,11 @@ const cartData = [
             }
         ]
     },
-
     {
         title : "Revenue",
         color: {
-            backGraund : 'linear-gradient(180deg, #bb67ff 0%, #c484f3 100%)',
-            boxShodow : '0px 10px 20px 0px #FDCB0c7',
+            backGround : 'linear-gradient(180deg, #0a89ea 0%, #02c5a8 100%)',
+            boxShadow : '0px 10px 20px 0px #9ae9e1',
         },
         barValue : 90,
         value : "25.970",
@@ -47,8 +46,8 @@ const cartData = [
     {
         title : "Expensess",
         color: {
-            backGraund : 'linear-gradient(180deg, #bb67ff 0%, #c484f3 100%)',
-            boxShodow : '0px 10px 20px 0px #F9D598',
+            backGround : 'linear-gradient(180deg, #9ae9e1 0%, #0a89ea 100%)',
+            boxShadow : '0px 10px 20px 0px #66debd',
         },
         barValue : 70,
         value : "25.970",
