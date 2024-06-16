@@ -1,0 +1,32 @@
+GET https://travel-trakerrs-5.onrender.com/tour
+
+
+###
+POST https://travel-trakerrs-5.onrender.com/tour
+Content-Type: application/json;
+
+{
+    "id": "1",
+    "card_img": "https://media.istockphoto.com/id/1208049833/photo/amazing-view-on-the-taj-mahal-in-sunset-light-with-reflection-in-water-the-taj-mahal-is-an.jpg?s=612x612&w=0&k=20&c=rNo7Q1k7SSaH6T09HShS57X9dw2QkuRBcnP2dNxAGIE=",
+    "card_title": "Taj Mahal and Agra Fort With Multiple Options & Departure Points",
+    "card2_img": "https://www.klook.com/activity/6299-taj-mahal-agra-fort-day-tour-delhi/",
+    "tag_2": "Bestseller",
+    "tag_1": "Easy refund",
+    "Booking": "Instant confirmation",
+    "rating": 4.6,
+    "review-number": 469,
+    "booked_number": "7K+ booked",
+    "price": "US$ 27.70",
+}
+
+###
+PUT https://travel-trakerrs-5.onrender.com/tour
+Content-Type: application/json;
+
+{
+    "id": "1",
+    "card_img": "https://res.klook.com/image/upload/c_fill,w_550,h_308/fl_lossy.progressive,q_85/q_85/activities/c9pxtufnq6neudcnbycc.webp",
+    "card_title": "Taj Mahal and Agra Fort With Multiple Options & Departure Points",
+    "Booking": "Instant confirmation",
+    "price": "US$ 27.70",
+}

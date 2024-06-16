@@ -1,31 +1,32 @@
-.Sidebar{
+.Sidebar {
     display: flex;
     flex-direction: column;
     position: relative;
     padding-top: 4rem;
     transition: all 300ms ease;
+    height: 100vh; /* Ensure the sidebar takes the full viewport height */
 }
-.logo{
+.logo {
     display: flex;
     height: 5rem;
-    height: 4%;
     margin-left: 1rem;
     align-items: center;
 }
-.logo>img{
+.logo > img {
     border-radius: 50%;
     width: 4rem;
     height: 4rem;
 }
 
-/* Menu  */
-.menu{
+/* Menu */
+.menu {
     margin-top: 4rem;
     display: flex;
     flex-direction: column;
     gap: 2rem;
+    flex-grow: 1; /* Allow the menu to take all available space */
 }
-.menuItem{
+.menuItem {
     display: flex;
     align-items: center;
     gap: 1rem;
@@ -35,16 +36,16 @@
     transition: all 300ms ease;
     font-size: 14px;
 }
-.menuItem:hover{
+.menuItem:hover {
     cursor: pointer;
 }
 
-.active{
+.active {
     background: var(--activeItem);
     margin-left: 0;
     border-radius: 0.7rem;
 }
-.active::before{
+.active::before {
     content: '';
     width: 8px;
     height: 100%;
@@ -52,8 +53,7 @@
     margin-right: calc(1rem - 8px);
 }
 
-.menu .menuItem:last-child{
-    position: absolute;
-    bottom: 2.3rem;
-    width: 100%;
+.menu .menuItem:last-child {
+    margin-left: 2rem;
+    margin-top: auto; /* Push the last item to the bottom */
 }

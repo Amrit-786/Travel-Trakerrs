@@ -1,0 +1,99 @@
+.dashTable {
+    background-color: #9ae9e1;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+thead {
+    background-color: #74e1c7;
+    color: white;
+}
+
+thead th {
+    padding: 15px 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+thead th:nth-child(1) {
+    width: 5%;
+}
+
+thead th:nth-child(2) {
+    width: 10%;
+}
+
+thead th:nth-child(3) {
+    width: 20%;
+}
+
+thead th:nth-child(4) {
+    width: 10%;
+}
+
+thead th:nth-child(5) {
+    width: 20%;
+}
+
+tbody tr {
+    background-color: #f2f2f2;
+    transition: background-color 0.3s;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #e9f7f6;
+}
+
+tbody tr:hover {
+    background-color: #d1f2eb;
+}
+
+tbody td {
+    padding: 15px 10px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+tbody td div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+tbody td img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+button {
+    padding: 8px 12px;
+    margin: 0 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: #3498db;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+.loading {
+    text-align: center;
+    padding: 20px;
+    font-size: 16px;
+    color: #3498db;
+}

@@ -1,6 +1,7 @@
 import React from 'react'
 import { Sidebar } from '../components/DashboardSidbar/Sidebar';
 import { MidDash } from '../components/DashboardSidbar/MidDash';
+import { DashboardRight } from '../components/DashboardSidbar/DashboardRight';
 
 const Dashboard = () => {
   return (
@@ -8,7 +9,7 @@ const Dashboard = () => {
      <div className="appGlass">
         <Sidebar />
         <MidDash />
-        <div></div>
+        <DashboardRight />
      </div>
     </div>
   )
