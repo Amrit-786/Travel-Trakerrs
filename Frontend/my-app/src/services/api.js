@@ -14,7 +14,7 @@ export const fetchTours=async () =>{
     }
 };
 
-export const fetchTourById = async(id:string)=>{
+export const fetchTourById = async(id)=>{
     try{
         const response=await axios.get(`${API_BASE_URL}/tour/${id}`);
         console.log('Tour data:', response.data);

@@ -24,7 +24,7 @@ const NavbarWithSearch = () => {
         tours.card_title.toLowerCase().includes(query.toLowerCase())
       );
     }, [tours,query]);
-    const toggleDarkMode = () => setDarkMode(!darkMode); // Function to toggle dark mode
+    // const toggleDarkMode = () => setDarkMode(!darkMode); // Function to toggle dark mode
   
     return (
       <div>

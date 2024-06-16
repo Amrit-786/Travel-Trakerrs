@@ -2,8 +2,11 @@ import { useEffect, useState, } from "react";
 import { Link, useNavigate } from 'react-router-dom';
 import { fetchTours } from "../services/api";
 import  styles from '../styles/TourList.module.css';
+import React from 'react';
+import ReactDOM from 'react-dom';  // If you need to render your component
 
-import NavbarWithSearch from "./Navbar";
+
+import NavbarWithSearch from "./NavbarWithSearch";
 import MyCarousel from "./Carousal";
 
 

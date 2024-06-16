@@ -13,6 +13,9 @@ import './App.css';
 import Cart from './components/Cart';
 import { SignupAndLogin } from './pages/SignupAndLogin';
 import { AboutUs } from './surabhi/AboutUs';
+import TourList from './components/TourList';
+import TourDetail from './components/TourDetail';
+import Booking from './pages/BookingPage';
 
 
 export default function App() {
@@ -23,7 +26,7 @@ export default function App() {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<AboutUs/>} />
         <Route path="/contact" element={<Contact />} />
-        <Route path="/prices" element={<Prices />} />
+        <Route path = "/tourList" element={<TourList/>}/>
         <Route path="/review" element={<Reviews />} />
 
         <Route path="/services" element={
@@ -36,7 +39,7 @@ export default function App() {
         <Route path="/services" element={<Services />} />
 
         <Route path='/signup' element={<SignupAndLogin />} />
-        <Route path = "/" element={<TourList/>}/>
+        
         <Route path='/cart'  element={<Cart/>}/>
         <Route path ="/tourDetails/:id" element={<TourDetail/>}/>
         <Route path="/booking" element={<Booking/>}/>
