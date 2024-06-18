@@ -22,11 +22,15 @@
         #9ae9e1 51.55%,
         #66debd 99.85%,
         #02c5a8 99.85%);
-    width: 100%;
+    /* width: 100%;
     height: auto;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    
   }
   
   .appGlass{
@@ -37,7 +41,7 @@
     background-color: var(--glass);
     overflow: hidden;
     grid-template-columns: 11rem auto 20rem;
+
     
   }
   
-    /* 0a89ea,  9ae9e1,  66debd, 02c5a8 */

@@ -5,13 +5,15 @@ import './Login.css';
 import { CiFacebook } from "react-icons/ci";
 import { FaInstagram, FaWhatsapp } from "react-icons/fa";
 
-
 const Login = () => {
   const [isSignUp, setIsSignUp] = useState(false);
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [confirmPassword, setConfirmPassword] = useState('');
   const [loggedIn, setLoggedIn] = useState(false);
+
+  const adminEmail = "admin@example.com";
+  const adminPassword = "admin123";
 
   const handleSignUp = () => {
     setIsSignUp(true);
@@ -35,16 +37,25 @@ const Login = () => {
     const registeredEmail = localStorage.getItem('registeredEmail');
     const registeredPassword = localStorage.getItem('registeredPassword');
     
-    if (email === registeredEmail && password === registeredPassword) {
+    if ((email === registeredEmail && password === registeredPassword) || (email === adminEmail && password === adminPassword)) {
       localStorage.setItem('isAuthenticated', 'true');
+      if (email === adminEmail && password === adminPassword) {
+        localStorage.setItem('isAdmin', 'true');
+      } else {
+        localStorage.setItem('isAdmin', 'false');
+      }
       setLoggedIn(true);
     } else {
       alert('Invalid email or password. Please try again.');
     }
   };
 
-  if (loggedIn || localStorage.getItem('isAuthenticated') === 'true') {
-    return <Navigate to="/services" />;
+  if (loggedIn) {
+    if (localStorage.getItem('isAdmin') === 'true') {
+      return <Navigate to="/dashboard" />;
+    } else {
+      return <Navigate to="/services" />;
+    }
   }
 
   return (
@@ -88,16 +99,15 @@ const Login = () => {
                   Sign up
                 </button>
                 <div className='iconsricky'>
-          <CiFacebook />
-          <FaInstagram />
-          <FaWhatsapp />
-        </div>
+                  <CiFacebook />
+                  <FaInstagram />
+                  <FaWhatsapp />
+                </div>
               </>
             )}
           </div>  
         </form>
       </div>
-      
     </div>
   );
 };
