@@ -19,7 +19,7 @@ const TourList=()=>{
             const data = await fetchTours();
             setTours(data);
             setFilteredTours(data);
-            // console.log(data);
+            console.log(data);
         };
         getTours();
     },[]);

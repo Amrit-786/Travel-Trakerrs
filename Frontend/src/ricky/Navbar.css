@@ -212,10 +212,11 @@ margin-top: 20px;
   height: 34px;
   border-radius: 20px;
   border:  #63a1ff;
-  background-color: transparent;
+  background-color: grey;
   cursor: pointer;
   margin-top: 10px;
-  transition: background-color 0.3s ease, color 0.3s ease;
+  /* transition: background-color 0.3s ease, color 0.3s ease; */
+ 
 }
 
 .fourthImg button:hover {

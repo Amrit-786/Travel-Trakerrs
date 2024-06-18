@@ -65,7 +65,7 @@ const handleClick=()=>{
           }}
         >
           <h2>Photography of popular places</h2>
-          <div className="tourPlacesPics reveal">
+          <div className="tourPlacesPics reveal "  style={{backgroundColor:'white'}}>
             <div className="leftPics">
               <img
                 src="https://media.istockphoto.com/id/511119416/photo/indian-landmark-gadi-sagar-in-rajasthan.jpg?s=612x612&w=0&k=20&c=dO7TbXh3sd6_QmgcF_nYi6ynyIAvPI5STavwzCDyWTI="
@@ -77,12 +77,12 @@ const handleClick=()=>{
               <img
                 src="https://img.veenaworld.com/wp-content/uploads/2023/06/Natures-Paradise-Discover-the-Best-Places-To-Visit-in-North-East-India.jpg"
                 alt=""
-                style={{ width: "100%" }}
+                style={{width: "300px" }}
               />
               <img
                 src="https://www.holidify.com/images/bgImages/RAJMACHI.jpg"
                 alt=""
-                style={{ width: "100%" }}
+                style={{ width: "300px" }}
               />
             </div>
           </div>
@@ -97,6 +97,7 @@ const handleClick=()=>{
             marginTop: "100px",
             fontFamily: "sans-serif",
             position: "absolute",
+            backgroundColor:'#f7f7fa',
           }}
         >
           <h2>Leave a request to be call</h2>
