@@ -15,19 +15,17 @@ const MyCarousel = () => {
           <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
         </Carousel.Caption>
       </Carousel.Item> */}
-      <Carousel.Item>
+      <Carousel.Item style={{padding:'4px'  ,marginTop:'110px', overflow: `hidden`}}>
         <img
            className="d-block w-100"
            width="100%"
            height="350px"
+           objectfit
           src="https://di5fgdew4nptq.cloudfront.net/api2/media/images/e3c561a9-fa2c-ed11-b54c-0025b513b100"
           alt="Second slide"
         />
 
-        {/* <Carousel.Caption> */}
-          {/* <h3>Second slide label</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> */}
-        {/* </Carousel.Caption> */}
+      
       </Carousel.Item>
       {/* <Carousel.Item>
         <img

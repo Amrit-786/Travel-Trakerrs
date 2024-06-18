@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './pages/Navbar';
 import Contact from './pages/Contact';
 import Prices from './pages/Prices';
-import Reviews from './pages/Reviews';
+import  { Review_Page } from './pages/Reviews';
 import Services from './pages/Services';
 import Home from './pages/Home';
 import Login from './pages/Login';
@@ -15,7 +15,9 @@ import { SignupAndLogin } from './pages/SignupAndLogin';
 import { AboutUs } from './surabhi/AboutUs';
 import TourList from './components/TourList';
 import TourDetail from './components/TourDetail';
-import Booking from './pages/BookingPage';
+
+import { CartProvider } from './context/CartContext';
+import Booking from './components/BookingPage';
 
 
 export default function App() {
@@ -27,24 +29,32 @@ export default function App() {
         <Route path="/about" element={<AboutUs/>} />
         <Route path="/contact" element={<Contact />} />
         <Route path = "/tourList" element={<TourList/>}/>
-        <Route path="/review" element={<Reviews />} />
+        <Route path="/review" element={<Review_Page />} />
 
-        <Route path="/services" element={
-          <PrivateRoute>
-            <Services />
-          </PrivateRoute>
-        }/>
+        <Route path="/services" element={ <Services/>}/>
 
         <Route path="/login" element={<Login />} />
         <Route path="/services" element={<Services />} />
 
         <Route path='/signup' element={<SignupAndLogin />} />
         
-        <Route path='/cart'  element={<Cart/>}/>
-        <Route path ="/tourDetails/:id" element={<TourDetail/>}/>
+        <Route path='/cart'  element=
+        <CartProvider>
+        {<Cart/>}
+        </CartProvider>
+       
+        />
+        <Route path ="/tour/:id" element=
+        <CartProvider>
+        {<TourDetail/>}
+        </CartProvider>
+       
+        />
         <Route path="/booking" element={<Booking/>}/>
 
         <Route path='/signup' element={<SignupAndLogin/>} />
+
+        <Route path='/contact' element={<Contact/>}/>
 
       </Routes>
    </Router>

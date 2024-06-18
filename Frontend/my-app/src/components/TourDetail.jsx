@@ -17,8 +17,9 @@ const TourDetail=()=>{
     useEffect(()=>{
         const getTour=async()=>{
             try{
-                const data = await fetchTourById(decodeURIComponent(id));
-                setTour(data);               
+                const data = await fetchTourById(id);
+                setTour(data);  
+             console.log(data);
         } 
         catch (error) {
             setError('Failed to fetch tour details.');
@@ -44,6 +45,7 @@ const TourDetail=()=>{
 
 
     const handleAddToCart=()=>{
+        
         addToCart(tour);
         navigate('/cart');
     }
@@ -73,7 +75,7 @@ const TourDetail=()=>{
       </div>
      
     </div>
-    < AccordionCom/>
+    {/* < AccordionCom/> */}
    
     </>
    )

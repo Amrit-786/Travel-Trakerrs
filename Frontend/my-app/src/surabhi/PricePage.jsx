@@ -1,3 +1,4 @@
+import Footer from "../pages/Footer";
 import "./price.css";
 import { useState, useEffect } from "react";
 const priceData = [
@@ -13,6 +14,7 @@ const priceData = [
 export const PricePage = () => {
   const [data, setData] = useState(priceData);
   const [selectedItem, setSelectedItem] = useState(null);
+  const [btn,setbtnTrue]=useState(false);
 
   const handleItemClick = (index) => {
     setSelectedItem(selectedItem === index ? null : index);
@@ -40,53 +42,12 @@ export const PricePage = () => {
       window.removeEventListener("scroll", revealOnScroll);
     };
   }, []);
-
+const handleClick=()=>{
+  setbtnTrue(true);
+}
   return (
     <div className="priceContainer" style={{ width: "100%" }}>
-      {/* <div
-        className="tourPrice reveal"
-        style={{
-          width: "100%",
-          marginLeft: "18%",
-           height: "400px",
-          fontFamily: "sans-serif",
-           marginTop: "100px",
-        }}
-      >
-        <h2>Tour Prices</h2>
-        <div
-          className="priceLists reveal"
-          style={{
-            display: "grid",
-            gridTemplateColumns: "1fr 1fr",
-             gap: "10%",
-            width: "100%",
-            marginTop: "50px",
-            padding:'50px'
-          }}
-        >
-          {data.map((item, index) => (
-            <div
-              key={index}
-              className={`price-item ${
-                selectedItem === index ? "selected" : ""
-              }`}
-              style={{
-                display: "flex",
-                justifyContent: "space-between",
-                borderTop: "1px solid gray",
-                borderBottom: "1px solid gray",
-                marginBottom: "-11.3px",
-                alignItems: "center",
-              }}
-              onClick={() => handleItemClick(index)}
-            >
-              <p style={{ color: "#535452" }}>{item.title}</p>
-              <b>{item.price}</b>
-            </div>
-          ))}
-        </div>
-      </div> */}
+
       <div
         style={{
           backgroundColor: "#f7f7fa",
@@ -98,30 +59,30 @@ export const PricePage = () => {
           style={{
             width: "1000px",
             marginLeft: "18%",
-             marginTop: "100px",
+            marginTop: "100px",
             fontFamily: "sans-serif",
             position: "absolute",
           }}
         >
-          <h1 style={{marginLeft:'-59px'}}>Photography of popular places</h1>
+          <h2>Photography of popular places</h2>
           <div className="tourPlacesPics reveal">
             <div className="leftPics">
               <img
                 src="https://media.istockphoto.com/id/511119416/photo/indian-landmark-gadi-sagar-in-rajasthan.jpg?s=612x612&w=0&k=20&c=dO7TbXh3sd6_QmgcF_nYi6ynyIAvPI5STavwzCDyWTI="
                 alt=""
-                 style={{ width: "100%", marginLeft:'-59px' }}
+                style={{ width: "100%" }}
               />
             </div>
             <div className="rytPics">
               <img
                 src="https://img.veenaworld.com/wp-content/uploads/2023/06/Natures-Paradise-Discover-the-Best-Places-To-Visit-in-North-East-India.jpg"
                 alt=""
-                style={{ width: "100%" ,  height:"200px",  marginLeft:'-30px'}}
+                style={{ width: "100%" }}
               />
               <img
                 src="https://www.holidify.com/images/bgImages/RAJMACHI.jpg"
                 alt=""
-                style={{ width: "100%" ,  height:"200px",  marginLeft:'-30px' }}
+                style={{ width: "100%" }}
               />
             </div>
           </div>
@@ -132,37 +93,40 @@ export const PricePage = () => {
           className="rqstCallDiv reveal"
           style={{
             width: "1000px",
-             marginLeft: "18%",
+            marginLeft: "18%",
             marginTop: "100px",
             fontFamily: "sans-serif",
             position: "absolute",
           }}
         >
           <h2>Leave a request to be call</h2>
-          <div
+          {btn ? <h3 style={{color:'#ee7744'}}>Thankyou for showing Interest 🧡 </h3> : <div
             className="rqstCallInput"
             style={{ display: "flex", justifyContent: "space-between" }}
           >
+           
             <div>
               <h4>Your Name</h4>
-              <input type="text" placeholder="Completed entry field" />
+              <input type="text" placeholder="Completed entry field"  required/>
             </div>
             <div>
               <h4>Your Phone Number</h4>
-              <input type="text" placeholder="+91 _ _ _ _ _ _ _ _ _ _" />
+              <input type="number" placeholder="+91 _ _ _ _ _ _ _ _ _ _" required />
             </div>
-            <div style={{ marginTop: "26px" }}>
-              <button className="btnSend" style={{ fontWeight: "bold" }}>
-                Send
+            <div style={{ marginTop: "30px" }}>
+              <button onClick={handleClick} className="btnSend" style={{ fontWeight: "bold" }}>
+               Send
               </button>
             </div>
-          </div>
+          </div> }
+         
           <p style={{ color: "gray" }}>
             By filling in the form you consent to the processing of personal
             data.{" "}
           </p>
         </div>
       </div>
+      <Footer/>
     </div>
   );
 };

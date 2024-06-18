@@ -1,0 +1,15 @@
+/* src/components/SearchFilter.module.css */
+.searchFilterContainer {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .searchFilterContainer input,
+  .searchFilterContainer select {
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  

@@ -6,8 +6,8 @@
 
 .about-us-content {
   position: absolute;
-  top: 30%;
-  left: 50%;
+  top: 40%;
+  left: 55%;
   transform: translate(-50%, -50%);
   text-align: center;
   color: #7e2404; 
@@ -47,11 +47,13 @@
 
 }
 .about-us-cards{
+  /* margin-top: -500px; */
   display: flex;
   width: 300px;
   height: 150px;
-  box-shadow: rgb(255, 114, 67) 0px 3px 8px;
+  box-shadow: rgb(67, 214, 255) 0px 3px 8px;
   justify-content: space-evenly;
+  
 
 }
 .about-us-cards-logo{
@@ -90,4 +92,3 @@ padding: 10px;
     transform: scale(0.8);
   }
 }
-

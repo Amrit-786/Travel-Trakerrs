@@ -1,0 +1,68 @@
+/* Form Container */
+.contact-form-container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    /* border: 2px solid black; */
+    border-radius: 8px;
+    background-color: #ddf4ee;
+    font-family: sans-serif;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 110px;
+    background-color:  #87CEEB;
+}
+
+/* Form Inputs */
+.contact-form-container input[type="text"],
+.contact-form-container input[type="email"],
+.contact-form-container input[type="number"],
+.contact-form-container textarea,
+.contact-form-container select {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+/* Submit Button */
+.contact-form-container button[type="submit"] {
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #367588;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+   
+}
+
+/* Thank You Message */
+.thank-you-message {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    border-radius: 8px;
+    background-color: lightblue;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    z-index: 1000; /* Ensure it appears above everything else */
+    text-align: center;
+    animation: scale 2s ease-in-out;
+  }
+  
+  @keyframes scale {
+    0% {
+      transform: translate(-50%, -50%) scale(0.5);
+    }
+    50% {
+      transform: translate(-50%, -50%) scale(1.1);
+    }
+    100% {
+      transform: translate(-50%, -50%) scale(1);
+    }
+  }
+  

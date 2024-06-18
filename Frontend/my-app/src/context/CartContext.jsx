@@ -9,7 +9,11 @@ export const CartProvider = ({children})=>{
     const [cartItems, setCartItems] = useState([]);
 
     const addToCart = (tour) => {
-        setCartItems((prev)=> [...prev,tour])
+        const check=cartItems.some(tours=>tours.id===tour.id)
+        if(!check){
+            setCartItems((prev)=> [...prev,tour]);
+        }
+       
     }
 
     const removeFromCart= (id)=>{

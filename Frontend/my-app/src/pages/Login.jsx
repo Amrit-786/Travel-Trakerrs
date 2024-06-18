@@ -51,12 +51,7 @@ const Login = () => {
     <div className="login-page">
       <div className="blur-background"></div>
       <div className="login-container">
-      <div className='iconsricky'>
-          <CiFacebook />
-          <FaInstagram />
-          <FaWhatsapp />
-        </div>
-        <h2>{isSignUp ? 'Sign Up' : 'Login'}</h2>
+        <h2 id='h2'>{isSignUp ? 'Sign Up' : 'Login'}</h2>
         <form>
           <input
             type="email"
@@ -81,22 +76,28 @@ const Login = () => {
          
           <div>
             {isSignUp ? (
-              <button id='loginBtn' type="button" onClick={handleRegister}>
+              <button id='loginBtn' type="button" className='register' onClick={handleRegister}>
                 Register
               </button>
             ) : (
               <>
-                <button id='loginBtn' type="button" onClick={handleLogin}>
+                <button id='loginBtn1' className='loginBtnLogin' type="button" onClick={handleLogin}>
                   Log in
                 </button>
-                <button id='loginBtn' type="button" onClick={handleSignUp}>
+                <button id='loginBtn2' type="button" className='loginBtnSign' onClick={handleSignUp}>
                   Sign up
                 </button>
+                <div className='iconsricky'>
+          <CiFacebook />
+          <FaInstagram />
+          <FaWhatsapp />
+        </div>
               </>
             )}
           </div>  
         </form>
       </div>
+      
     </div>
   );
 };

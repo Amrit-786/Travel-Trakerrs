@@ -12,10 +12,13 @@ import {
   AccordionPanel,
   AccordionIcon,
   Box,
+  ChakraProvider,
 } from "@chakra-ui/react";
-import { GuestCorner } from "./GuestCorner";
-import { CompanyProfile } from "./CompanyProfile";
-const dataList=[{title:'Top Destinations',listItem:['Leh Ladakh with Sonalee Kulkarni','Monsoon Offer','Amarnath','Himachal Spiti valley','Leh Ladakh','South East Asia']},{title:'Speciality Tours',listItem:['Adventure Tour','Chota Break','Gujarati Special','Honeymoon Special','Veg Tour','Economy Tour','Experiences']}];
+import Footer from "../pages/Footer";
+
+const dataList=[{title:'Top Destinations',listItem:['Leh Ladakh with Sonalee Kulkarni','Monsoon Offer','Amarnath','Himachal Spiti valley','Leh Ladakh','South East Asia']},
+{title:'Speciality Tours',listItem:['Adventure Tour','Chota Break','Gujarati Special','Honeymoon Special','Veg Tour','Economy Tour','Experiences']},
+{title:'Other Amenties',listItem:['Adventure Tour','Chota Break','Gujarati Special','Honeymoon Special','Veg Tour','Economy Tour','Experiences']}];
 
 
 export const AboutUs = () => {
@@ -29,6 +32,7 @@ export const AboutUs = () => {
   };
   return (
     <>
+    <ChakraProvider>
     <div className="about-us-container">
       
       <div className="image-container">
@@ -70,26 +74,16 @@ export const AboutUs = () => {
                </AccordionButton>
              </h2>
              <AccordionPanel pb={4} style={{backgroundColor:'rgb(238,112,68, 0.5)'}}>
-               {item.listItem.map((ele,index)=>(
+               {item.listItem.map(ele=>(
                 <div style={{textAlign:'left', color:'#444242' ,}}>
-                  <li  key={index}>{ele}</li>
+                  <li >{ele}</li>
                 </div>
                ))}
              </AccordionPanel>
            </AccordionItem>
          </Accordion>
         ))}
-       
-      </div>
-      
-      <div className="about-us-btn">
-        <button onClick={handleClick}>{isClicked ? <GuestCorner/> :"Company Profile"}</button>
-        <button onClick={handleClick}>
-        {isClicked ? <GuestCorner/> : "Adventure"}</button>
-        <button
-            onClick={handleClick}>
-           {isClicked ? <GuestCorner/> : "Guest Corner"}</button>
-      </div>
+   
       </div>
       <div className="about-us-cards-data" style={{ animation: "zoomInOut 8s infinite alternate" }}>
         <div className="about-us-cards">
@@ -131,9 +125,12 @@ export const AboutUs = () => {
           </div>
         </div>
         </div>
-       <div>
+        </div>
+        </ChakraProvider>
+        <Footer/>
+       {/* <div>
        <CompanyProfile/>
-       </div>
+       </div> */}
       
     </>
   );

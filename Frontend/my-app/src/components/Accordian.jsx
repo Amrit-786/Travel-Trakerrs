@@ -18,7 +18,7 @@ import {
   return (
     <Box>
     <Flex
-      maxH={'100vh'}
+      maxWidth={'100vh'}
       align={'center'}
       justify={'center'}
       bg={useColorModeValue('gray.50', 'gray.800')}>

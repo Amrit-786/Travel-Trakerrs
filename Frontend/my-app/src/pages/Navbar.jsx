@@ -1,20 +1,16 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import '../ricky/Navbar.css';
-
-import { CiFacebook } from 'react-icons/ci';
-import { FaInstagram, FaUserAlt, FaWhatsapp } from 'react-icons/fa';
-
+import { FaCircleUser } from "react-icons/fa6";
+import ColorTheme from './ColorTheme';
 
 function Navbar() {
   return (
-    <>
-    
-    <header>
+    <header style={{ position: 'absolute', top: 0, width: '100%', zIndex: 10  ,overflow:'hidden'}}>
       <nav className="navbar">
         <div>
           <Link to="/">
-            <img src="/ttr.png" alt="Logo" />
+            <img src='/travelLogo.png' alt="Logo" id='imgs'/>
           </Link>
         </div>
 
@@ -26,29 +22,13 @@ function Navbar() {
           <Link to="/services" className="nav-link">Services</Link>
         </div>
 
-          <Link to="/login" className="userIcon"><FaUserAlt/></Link>
-
-        <div
-              className='iconsricky'>
-              <CiFacebook />
-              <FaInstagram />
-              <FaWhatsapp />
-         </div>
-
-
-    
-        </nav>
-
-      </header>
-  
-
-        
-  
-    {/* <PricePage/>  */}
-    </>
-    
+        <div className="userIcon_theme">
+          <Link to="/login" className="userIcon"><FaCircleUser /></Link>
+          <ColorTheme />
+        </div>
+      </nav>
+    </header>
   );
-
 }
 
 export default Navbar;

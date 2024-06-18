@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { useCart } from '../context/CartContext'
 import styles from '../styles/Cart.module.css'
+import { Link } from 'react-router-dom';
 
 const Cart = () => {
   const {cartItems,removeFromCart} = useCart();
@@ -45,7 +46,7 @@ const Cart = () => {
               </div>
         ))}
       </div>
-      <button className={styles.checkoutButton}>go to payment</button>
+      <Link to = {'/booking'}><button className={styles.checkoutButton}>go to payment</button></Link> 
      </div>
      </>
   )

@@ -7,6 +7,7 @@ import { IoSettingsSharp } from "react-icons/io5";
 import SecondPart from './SecondPart';
 import { PricePage } from '../surabhi/PricePage';
 
+import Footer from './Footer';
 export default function Home() {
   return (
     <>
@@ -22,24 +23,24 @@ export default function Home() {
      <h1>Our advantages</h1>
        <div className='ThirdPart'>
 
-            <div>
+            <div className='thirdCard'>
               <FaBookOpen size={38} className='icon-container'/>
                 <h3>Experienced instructors</h3>
                 <p>All our instructors have doctoral degree of more than 10 years</p>
             </div>
 
-            <div>
-            <FaCheckToSlot size={38}  className='icon-container'/>
+            <div className='thirdCard'>
+               <FaCheckToSlot size={38}  className='icon-container'/>
                 <h3>Recent information</h3>
                 <p>We are constantly following the news and updating our routes</p>
             </div>
             
-            <div>
+            <div className='thirdCard'>
                 <FaUserCircle size={38} className='icon-container'/>
                 <h3>A Personal approach</h3>
                 <p>We check every application and answer all questions</p>
             </div>
-            <div>
+            <div className='thirdCard'>
                 <IoSettingsSharp size={38} className='icon-container'/>
                 <h3>Newest transport</h3>
                 <p>We use the most comfortable and paractical buses</p>
@@ -78,13 +79,14 @@ export default function Home() {
 
 </div>
 <PricePage/>
+<div>
+    {/* <Footer/> */}
+</div>
+
+
 
 </>
-
-
-
-
-      
+    
 
   )
 }
