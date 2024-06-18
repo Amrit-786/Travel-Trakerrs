@@ -18,6 +18,7 @@ import TourDetail from './components/TourDetail';
 
 import { CartProvider } from './context/CartContext';
 import Booking from './components/BookingPage';
+import { Dashboard } from './dashboard/DashBoard';
 
 
 export default function App() {
@@ -36,6 +37,8 @@ export default function App() {
         <Route path="/login" element={<Login />} />
         <Route path="/services" element={<Services />} />
 
+        <Route path='/dashboard' element={<Dashboard />} />
+        
         <Route path='/signup' element={<SignupAndLogin />} />
         
         <Route path='/cart'  element=

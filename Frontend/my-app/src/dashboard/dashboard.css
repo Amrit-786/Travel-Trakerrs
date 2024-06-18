@@ -1,0 +1,43 @@
+:root {
+    --yellow: linear-gradient(180deg, #F8D49A -146.42%, #FAD79D -46.42%);
+    --orange: #fca61f;
+    --black: #242d49;
+    --gray: #788097;
+    --purple: linear-gradient(180deg, #BB67FF 0%, #C484F3 100%);
+    --pink: #0a89ea;
+    --glass: rgba(255, 255, 255, 0.54);
+    --boxShadow: 0px 19px 60px rgb(0 0 0 / 8%);
+    --smboxShadow: -79px 51px 60px rgba(0, 0, 0, 0.08);
+    --activeItem: #66debd;
+  }
+  
+  body {
+    font-family: "Inter", sans-serif;
+   
+  }
+  
+  .dashboardBody {
+    background-image: linear-gradient(106.37deg, 
+        /* #0a89ea 29.63%, */
+        #9ae9e1 51.55%,
+        #66debd 99.85%,
+        #02c5a8 99.85%);
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .appGlass{
+    display: grid;
+    height: 97%;
+    width: 97%;
+    /* border-radius: 2rem; */
+    background-color: var(--glass);
+    overflow: hidden;
+    grid-template-columns: 11rem auto 20rem;
+    
+  }
+  
+    /* 0a89ea,  9ae9e1,  66debd, 02c5a8 */

@@ -1,0 +1,46 @@
+/* .formDash{
+    display: flex;
+} */
+.form_dashboard {
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form_dashboard input[type="text"],
+  .form_dashboard input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 14px;
+  }
+  
+  .form_dashboard button {
+    width: 100%;
+    background-color: #3498db;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .form_dashboard button:hover {
+    background-color: #2980b9;
+  }
+  
+  @media (max-width: 480px) {
+    .form_dashboard {
+      width: 100%;
+      padding: 10px;
+    }
+  }
+  
