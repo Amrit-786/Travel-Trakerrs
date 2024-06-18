@@ -39,6 +39,9 @@ Key features of our project
 ![Screenshot 2024-06-18 205701](https://github.com/Amrit-786/Travel-Trakerrs/assets/151186120/62cac772-c396-4899-b6d8-fa443be409cd)
 ![Screenshot 2024-06-18 205747](https://github.com/Amrit-786/Travel-Trakerrs/assets/151186120/794f75c7-a589-4fba-a2c1-70894e50e7ae)
 ![Screenshot 2024-06-18 205857](https://github.com/Amrit-786/Travel-Trakerrs/assets/151186120/4cfc2642-3d6f-420c-adba-36e6aa88a441)
+
+![Screenshot 2024-06-18 212722](https://github.com/Amrit-786/Travel-Trakerrs/assets/151186120/82a07c59-f285-4bfe-a7aa-b2196e98b6f6)![Screenshot 2024-06-18 212739](https://github.com/Amrit-786/Travel-Trakerrs/assets/151186120/0412333a-ba79-4c46-8fd3-538ccb97c5c1)
+
 ![Screenshot 2024-06-18 205156](https://github.com/Amrit-786/Travel-Trakerrs/assets/151186120/7b71ebf0-da37-4757-96c6-25b0fcf5ae0f)
 ![Screenshot 2024-06-18 205303](https://github.com/Amrit-786/Travel-Trakerrs/assets/151186120/6719bd7c-033b-4117-9552-365ac5d7a7b7)
 ![Screenshot 2024-06-18 205355](https://github.com/Amrit-786/Travel-Trakerrs/assets/151186120/b455643d-d9ca-4aff-bfee-664671868288)
