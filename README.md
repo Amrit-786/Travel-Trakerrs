@@ -1,7 +1,7 @@
 # Travel Trakker
 
 ## About us
-Travel Trakker is a premier travel agency dedicated to providing personalized and memorable tours across India. Our mission is to showcase the rich heritage, vibrant cultures, and breathtaking natural beauty of India to travelers from around the world. We offer a variety of tour packages tailored to meet the interests and preferences of every traveler.
+Travel Trakker is a premier travel agency dedicated to providing personalized and memorable tours across India. Our mission is to showcase the rich heritage, vibrant cultures, and breathtaking natural beauty of India to travelers from around the world. We offer a variety of tour packages tailored to meet the interests and preferences of every traveller.
 
 ## Project Type
 Frontend | Backend | Fullstack
